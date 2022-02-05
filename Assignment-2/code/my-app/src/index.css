@@ -20,8 +20,17 @@ h1{
   color: cornflowerblue;
   font-size: 50px;
 }
-p{
-  opacity: 0.4;
+label{
+  opacity: 0.6;
+}
+.profile-info{
+  margin: 10px;
+}
+.profile-info label{
+  font-size: 13px;
+}
+.profile-info label, .profile-info strong{
+  display: block;
 }
 img{
   margin: 5px;
