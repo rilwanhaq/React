@@ -29,7 +29,7 @@ function App() {
     <div className="site-container">
     {/* Start Your code here */}
     <div className='header-info'>
-      <div className='arrow'> {arrow} </div>
+      <a className='arrow' id='up' href='#down'> {arrow} </a>
       <div className='middle'>
       <h3><strong>{employee.name}</strong></h3>
       <label>{employee.EmployeeID}</label>
@@ -68,7 +68,7 @@ function App() {
     <strong>{productList.proName}</strong>
     <p>{productList.proDesc}</p>
     </div>
-    <label className='arrow'> <bdo dir="rtl">{arrow}</bdo></label>
+    <a className='arrow' id='down' href='up'> <bdo dir="rtl">{arrow}</bdo></a>
     </div>
     </div>
   );
