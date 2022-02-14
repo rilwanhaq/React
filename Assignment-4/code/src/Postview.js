@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from 'react';
 import './Postview.css';
-import Data from './Mock-data/data.json';
 import unknown from './images/unknown.png';
 import camera from './images/camera.png';
 import option from ".//images//option.png";
